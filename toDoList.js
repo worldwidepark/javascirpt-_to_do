@@ -10,11 +10,10 @@ function is_checked() {
   let checkedCounts = document.getElementById("checkedCounts");
   let uncheckedCounts = document.getElementById("uncheckedCounts");
 
-  // 1. checkbox element를 찾습니다.
   let checkbox = document.getElementsByName("hobby");
-  // 2. checked 속성을 체크합니다.
+
   let is_checked = checkbox.checked;
-  // 3. 결과를 출력합니다.
+
   // chkList.forEach(function (ch) {
   //   console.log(ch.value);
   // });
