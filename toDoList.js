@@ -101,7 +101,6 @@ function deleteToDoList(event) {
     let checkbox = parent.parentElement;
     parent.remove();
     is_checked();
-    console.log(checkbox);
     if (checkbox.childElementCount == 1) {
       checkbox.children[0].innerText = "Nothing to do. Put something.";
     }
