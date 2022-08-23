@@ -1,0 +1,114 @@
+body {
+  background-color: antiquewhite;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+#title {
+  top: -150px;
+  position: relative;
+  font-size: 45px;
+}
+#inputToDoForm {
+  padding-top: 10px;
+  padding-bottom: 50px;
+  top: -200px;
+  position: relative;
+}
+#inputToDo {
+  width: 70%;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 2px solid #ddd;
+}
+#inputButton {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#counts {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-bottom: 50px;
+}
+#wholeCounts {
+  background-color: gold;
+  margin-right: 15px;
+}
+#checkedCounts {
+  background-color: aqua;
+  margin-right: 15px;
+}
+
+#uncheckedCounts {
+  background-color: salmon;
+  margin-right: 15px;
+}
+#checkbox {
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: flex-start;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 2px solid #d1d3d4;
+}
+#checkbox div {
+  color: red;
+}
+#checkForm {
+  height: 30px;
+  padding-top: 5px;
+}
+#checkForm label {
+  height: 45px;
+  padding: 10px;
+  color: #111111;
+  font-weight: 500;
+}
+#editButton {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 220px;
+  border-radius: 2px;
+}
+#deleteButton {
+  background-color: violet;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 260px;
+  border-radius: 2px;
+}
+#edit {
+  position: relative;
+  left: 10px;
+  width: 95%;
+  font-size: 16px;
+  border: 2px solid #ddd;
+}
