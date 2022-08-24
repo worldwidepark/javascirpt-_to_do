@@ -2,31 +2,25 @@
 <html>
   <head>
     <title>To do list</title>
-    <script src="toDoList.js"></script>
+
     <link rel="stylesheet" type="text/css" href="toDoList.css" />
   </head>
   <body>
     <div id="title">To do list</div>
     <div id="counts">
-      <div id="wholeCounts">全てのタスク:0</div>
-      <div id="checkedCounts">完了済:0</div>
-      <div id="uncheckedCounts">未完了:0</div>
+      <div id="wholeTasks">全てのタスク:<span id="wholeCounts">0</span></div>
+      <div id="checkedTasks">完了済:<span id="checkedCounts">0</span></div>
+      <div id="uncheckedTasks">未完了:<span id="uncheckedCounts">0</span></div>
     </div>
 
     <form id="inputToDoForm">
       <input id="inputToDo" type="text" maxlength="20" />
-      <button
-        id="inputButton"
-        type="button"
-        onclick="makeToDoList('inputToDo')"
-      >
-        保存
-      </button>
-      <input type="submit" style="visibility: hidden" />
+      <button id="inputButton" type="button">保存</button>
     </form>
 
     <form id="checkbox">
       <div>Nothing to do. Put something.</div>
     </form>
+    <script src="toDoList.js"></script>
   </body>
 </html>

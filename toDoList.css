@@ -21,7 +21,7 @@ body {
   position: relative;
 }
 #inputToDo {
-  width: 70%;
+  width: 65%;
   padding: 10px 15px;
   font-size: 16px;
   border-radius: 3px;
@@ -43,18 +43,21 @@ body {
   flex-direction: row;
   padding-bottom: 50px;
 }
-#wholeCounts {
+#wholeTasks {
   background-color: gold;
   margin-right: 15px;
+  padding: 5px;
 }
-#checkedCounts {
+#checkedTasks {
   background-color: aqua;
   margin-right: 15px;
+  padding: 5px;
 }
 
-#uncheckedCounts {
+#uncheckedTasks {
   background-color: salmon;
   margin-right: 15px;
+  padding: 5px;
 }
 #checkbox {
   width: 300px;
